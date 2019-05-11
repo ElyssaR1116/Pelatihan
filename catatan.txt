@@ -1,0 +1,43 @@
+checkout : melihat codingan lalu
+revert : membatalkan codingan lalu
+reset : menghapus history, sudah tidak bisa lagi dikembalikan
+
+keluar text editor -> :wq lalu enter
+
+index.html ke github
+
+1. git init
+2. git add index
+3. git add .\index.html
+4. git status
+5. git commit -m "initial commit" ->> yang di dalam " " bebas mau dikasih apa
+6. git config --global user.name "Elyssa Ridha"
+7. git config --global user.email "elyssaridhaningrum@mail.ugm.ac.id"
+8. git commit -m "initial commit"
+9. git remote add origin https://github.com/ElyssaR1116/Pelatihan.git
+10. git remote -v
+11. git push origin master
+12. git log --oneline   --> history commit
+ubah judul di html jangan lupa di save---------------
+13. git commit -am "tambah judul"
+ubah body (tambah halo) jangan lupa di save-----------
+14. git commit -am "tambah halo"
+15. git push origin master
+16. git checkout master
+17. git add .
+buat file baru bernama sesuatu.html
+18. git commit -am "tambah sesuatu"
+19. git log --oneline
+20. git revert bda63ab   --> untuk menghapus tambah sesuatu
+keluar text editor -> :wq lalu enter
+21. git log --oneline
+nambah branch
+22. git branch (nama branch)
+23. git branch -a   --> melihat branch
+24. git checkout (nama branch)
+25. git add .
+26. git commit -am "tambah contoh"
+27. git add.
+28. git commit -am "tambah contoh lagi"
+29. git merge contoh
+30. git push origin master
